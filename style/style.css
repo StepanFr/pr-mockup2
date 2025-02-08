@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*:before {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    position: relative;
+} */
+
+.border_red {
+    border: 1.5px dotted red;
+}
+
+.cursor_pointer_hover:hover {
+    cursor: pointer;
+}
+
+.underline_hover:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+header {
+    background: url(/img/page1_top.png) no-repeat center center/cover;
+    min-height: 80vh;
+    padding: 10px 9.9%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+.header_box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #050A14;
+    height: 70px;
+    border-radius: 35px;
+    margin: 0 auto;
+}
+
+.header_box > div {
+    justify-content: space-between;
+}
+
+.header_box > div {
+    display: flex;
+    align-items: center;
+}
+
+.header_box > div:first-child {
+    gap: 50px;
+}
+
+.header_box > div:last-child {
+    gap: 80px;
+}
+
+.header_box > div:first-child > div:first-child {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header_box > div:first-child > div:first-child img {
+    width: 50px;
+    height: 50px;
+}
+
+.header_box div:last-child > div:last-child {
+    margin-right: 10px;
+}
+
+.header_box > div:first-child > div:last-child img {
+    width: 210px;
+}
+
+.header_box > div:last-child > div:first-child > p:first-child {
+    color: #FFFFFF;
+    font-family: Onest;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    width: 100px;
+}
+
+.header_box > div:last-child > div:last-child p:first-child {
+    color: #FFFFFF;
+    font-family: Onest;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.header_box > div:last-child > div:last-child p:last-child {
+    color: gray;
+    font-family: Onest;
+    font-weight: 500;
+    font-size: 10px;
+    width: 150px;
+}
+
