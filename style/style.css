@@ -8,10 +8,6 @@
     padding: 0;
 }
 
-/* body {
-    position: relative;
-} */
-
 .border_red {
     border: 1.5px dotted red;
 }
@@ -28,7 +24,7 @@
 header {
     background: url(/img/page1_top.png) no-repeat center center/cover;
     min-height: 80vh;
-    padding: 10px 9.9%;
+    padding: 10px 9.9% 0px 9.9%;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
@@ -65,6 +61,7 @@ header {
     width: 50px;
     height: 50px;
     margin-left: 10px;
+    border-radius: 25px;
 }
 
 .header_box > div:first-child > div:first-child img {
@@ -105,3 +102,49 @@ header {
     width: 150px;
 }
 
+.header_content {
+    padding: 70px 40px 0px 40px;
+    display: block;
+}
+
+.header_content p:nth-of-type(1) {
+    font-family: Onest;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: -2%;
+    line-height: 55px;
+    color: #FFFFFF;
+    width: 700px;
+}
+
+.header_content p:nth-of-type(2) {
+    font-family: Onest;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -2%;
+    color: #FFFFFF;
+    margin-top: 25px;
+    width: 400px;
+}
+
+.header_content button {
+    all: unset;
+    margin-top: 37px;
+    width: 270px;
+    height: 66px;
+    border-radius: 5px;
+    color:#624A29;
+    background: linear-gradient(0deg, #E6BA78, #E6BA78), linear-gradient(61.09deg, rgba(250, 235, 215, 0.7) -5.45%, rgba(216, 183, 143, 0.7) 22.09%, rgba(222, 191, 155, 0.7) 65.28%, rgba(250, 235, 215, 0.7) 103.04%);
+    box-shadow: 0px 3.18px 97.75px 0px #FFFFFF4D inset;
+    font-family: Onest;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25.5px;
+    text-align: center;
+}
+
+.man_box img {
+    width: 500px;
+    margin-bottom: -241px;
+}
